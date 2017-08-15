@@ -17,7 +17,7 @@ Usage
 Download [the latest release JAR][1] or grab via Maven:
 ```xml
 <dependency>
-  <groupId>org.jinstagram</groupId>
+  <groupId>com.github.iappssteve</groupId>
   <artifactId>jinstagram</artifactId>
   <version>1.1</version>
 </dependency>
