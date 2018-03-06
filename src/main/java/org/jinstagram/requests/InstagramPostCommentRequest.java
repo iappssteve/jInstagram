@@ -51,4 +51,20 @@ public class InstagramPostCommentRequest extends InstagramPostRequest<InstagramP
 	public InstagramPostCommentResult parseResult(int statusCode, String content) {
 		return parseJson(statusCode, content, InstagramPostCommentResult.class);
 	}
+
+	public long getMediaId() {
+		return mediaId;
+	}
+
+	public void setMediaId(long mediaId) {
+		this.mediaId = mediaId;
+	}
+
+	public String getCommentText() {
+		return commentText;
+	}
+
+	public void setCommentText(String commentText) {
+		this.commentText = commentText;
+	}
 }

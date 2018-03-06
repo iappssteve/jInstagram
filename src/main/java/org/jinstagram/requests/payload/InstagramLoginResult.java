@@ -16,4 +16,9 @@ public class InstagramLoginResult extends StatusResult {
 	public void setLogged_in_user(InstagramLoggedUser logged_in_user) {
 		this.logged_in_user = logged_in_user;
 	}
+
+	@Override
+	public String toString() {
+		return "InstagramLoginResult [logged_in_user=" + logged_in_user + ", toString()=" + super.toString() + "]";
+	}
 }

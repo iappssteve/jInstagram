@@ -53,4 +53,10 @@ public class StatusResult {
 	public void setFeedback_message(String feedback_message) {
 		this.feedback_message = feedback_message;
 	}
+
+	@Override
+	public String toString() {
+		return "StatusResult [status=" + status + ", message=" + message + ", spam=" + spam + ", feedback_title="
+				+ feedback_title + ", feedback_message=" + feedback_message + "]";
+	}
 }
